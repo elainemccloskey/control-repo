@@ -2,6 +2,6 @@
 message: "This node is using common data"
 
 puppet_enterprise::profile::puppetdb::java_args: {"Xmx": "1024m", "Xms": "1024m"}
-puppet_enterprise::profile::certificate_authority::client_whitelist
+puppet_enterprise::profile::certificate_authority::client_whitelist:
   - agent2.example.com
   - agent5.example.com

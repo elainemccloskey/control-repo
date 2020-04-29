@@ -22,5 +22,5 @@ mod 'puppetlabs-apt', '6.2.1'
 mod 'puppetlabs-translate', '1.1.0'
 
 mod 'concat',
-  :git => 'https://github.com/puppetlabs/puppetlabs-concat',
-  :tag => '5.3.0'
+  :git => 'git@github.com:elainemccloskey/puppetlabs-concat.git',
+  :tag => 'v5.2.1'

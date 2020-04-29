@@ -23,4 +23,4 @@ mod 'puppetlabs-translate', '1.1.0'
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat',
-  :tag => 'v5.3.0'
+  :tag => '5.3.0'

@@ -10,6 +10,7 @@ end
 forge 'https://forge.puppet.com'
  
 mod 'puppetlabs-cd4pe', :latest
+mod 'm0dular-crl_truncate', '0.1.0'
  
 # Requirements for cd4pe
 mod 'puppetlabs-hocon', '1.0.1'

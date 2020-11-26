@@ -21,6 +21,7 @@ mod 'puppetlabs-reboot', '2.0.0'
 mod 'puppetlabs-powershell', '2.2.0'
 mod 'puppetlabs-apt', '6.2.1'
 mod 'puppetlabs-translate', '1.1.0'
+mod 'puppetlabs-comply', '0.9.0'
 
 mod 'concat',
   :git => 'git@github.com:elainemccloskey/puppetlabs-concat.git',

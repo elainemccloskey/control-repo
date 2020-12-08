@@ -31,5 +31,5 @@ mod 'puppetlabs-ruby_task_helper', '0.4.0'
 mod 'puppetlabs-stdlib', '6.3.0'
 
 mod 'concat',
-  :git => 'git@ssh.dev.azure.com:v3/elainemcc/new%20module/new%20module',
+  :git => 'https://elainemcc@dev.azure.com/elainemcc/new%20module/_git/new%20module',
   :tag => 'v5.2.1'

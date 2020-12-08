@@ -31,5 +31,5 @@ mod 'puppetlabs-ruby_task_helper', '0.4.0'
 mod 'puppetlabs-stdlib', '6.3.0'
 
 mod 'concat',
-  :git => "git@github.com:elaine%20mccloskey/puppetlabs-concat.git",
+  :git => "git@github.com:elaine+mccloskey/puppetlabs-concat.git",
   :tag => 'v5.2.1'

@@ -32,4 +32,3 @@ mod 'puppetlabs-stdlib', '6.3.0'
 
 mod 'concat',
   :git => 'https://elainemcc@dev.azure.com/elainemcc/new%20module/_git/new%20module',
-  :tag => 'v5.2.1'

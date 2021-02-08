@@ -15,5 +15,3 @@ mod 'puppetlabs-java', '6.4.0'
 mod 'puppetlabs-ruby_task_helper', '0.6.0'
 mod 'puppetlabs-stdlib', '6.5.0'
 
-mod 'concat',
-  :git => 'git@ssh.dev.azure.com:v3/elainemcc/new%20module/new%20module'

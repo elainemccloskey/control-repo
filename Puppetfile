@@ -14,4 +14,6 @@ mod 'puppetlabs-translate', '2.2.0'
 mod 'puppetlabs-java', '6.4.0'
 mod 'puppetlabs-ruby_task_helper', '0.6.0'
 mod 'puppetlabs-stdlib', '6.5.0'
+mod 'puppetlabs-pwshlib', '0.8.0'
+
 

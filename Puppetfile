@@ -15,4 +15,8 @@ mod 'puppetlabs-ruby_task_helper', '0.6.0'
 mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-pwshlib', '0.8.0'
 
+mod 'puppetlabs-puppet_metrics_dashboard', '2.4.0'
+mod 'puppetlabs-puppet_metrics_collector', '6.5.0'
+
+
 

@@ -20,6 +20,11 @@ mod 'puppetlabs-puppet_metrics_collector', '6.5.0'
 mod 'puppet-grafana', '8.0.0'
 mod 'puppet-telegraf', '4.0.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
+mod 'puppetlabs-apt', '8.0.2'
+mod 'puppet-archive', '5.0.0'
+
+
+
 
 
 

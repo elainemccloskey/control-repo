@@ -17,6 +17,12 @@ mod 'puppetlabs-pwshlib', '0.8.0'
 
 mod 'puppetlabs-puppet_metrics_dashboard', '2.4.0'
 mod 'puppetlabs-puppet_metrics_collector', '6.5.0'
+mod 'puppet-grafana', '8.0.0'
+mod 'puppet-telegraf', '4.0.0'
+mod 'puppetlabs-puppetserver_gem', '1.1.1'
+
+
+
 
 
 

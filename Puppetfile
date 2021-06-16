@@ -15,13 +15,32 @@ mod 'puppetlabs-ruby_task_helper', '0.6.0'
 mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-pwshlib', '0.8.0'
 
-mod 'puppetlabs-puppet_metrics_dashboard', '2.4.0'
-mod 'puppetlabs-puppet_metrics_collector', '6.5.0'
-mod 'puppet-grafana', '7.0.0'
+mod 'puppetlabs-support_tasks', '1.1.3'
+
+
+# rsan and dependencies
+mod 'derdanne-nfs', '2.1.5'
+mod 'puppetlabs-postgresql', '6.6.0'
+mod 'puppetlabs-puppet_metrics_dashboard', '2.3.0'
+mod 'puppetlabs-concat', '6.4.0'
+mod 'puppetlabs-transition', '0.1.3'
+mod 'herculesteam-augeasproviders_core', '2.7.0'
+mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
+mod 'puppetlabs-apt', '7.7.1'
+mod 'puppet-grafana', '6.1.0'
 mod 'puppet-telegraf', '3.0.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
-mod 'puppetlabs-apt', '8.0.2'
-mod 'puppetlabs-support_tasks', '1.1.3'
+mod 'puppetlabs-rsan', '0.1.3'
+
+
+
+
+
+
+
+
+
+
 
 
 

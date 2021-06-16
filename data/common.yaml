@@ -1,5 +1,21 @@
 ---
-message: "This node is using common data"
-
-puppet_enterprise::profile::puppetdb::java_args: {"Xmx": "1024m", "Xms": "1024m"}
-puppet_enterprise::profile::puppetdb::listen_address: 0.0.0.0
+puppet_enterprise::profile::database::shared_buffers: 1564MB
+puppet_enterprise::puppetdb::command_processing_threads: 1
+puppet_enterprise::profile::puppetdb::java_args:
+  Xms: 782m
+  Xmx: 782m
+puppet_enterprise::profile::orchestrator::jruby_max_active_instances: 1
+puppet_enterprise::profile::orchestrator::java_args:
+  Xms: 782m
+  Xmx: 782m
+puppet_enterprise::profile::console::java_args:
+  Xms: 625m
+  Xmx: 625m
+puppet_enterprise::master::puppetserver::jruby_max_active_instances: 2
+puppet_enterprise::profile::master::java_args:
+  Xms: 1024m
+  Xmx: 1024m
+puppet_enterprise::master::puppetserver::reserved_code_cache: 192m
+puppet_infrastructure_tune::metadata:
+  pe_version: 2021.1.0
+  tune_date: '2021-06-16'

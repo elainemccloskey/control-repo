@@ -20,5 +20,18 @@ puppet_infrastructure_tune::metadata:
   pe_version: 2021.1.0
   tune_date: '2021-06-16'
   
+puppet_enterprise::profile::master::code_manager_auto_configure: true
 puppet_enterprise::master::code_manager::forge_settings:
   baseurl: 'http://localhost:8888'
+
+puppet_enterprise::master::code_manager::git_settings:
+  repositories:
+    - remote: "https://github.com/elainemccloskey/control-repo.git"
+    - remote: "https://github.com/pgrant87/control-repo.git"
+puppet_enterprise::master::code_manager::sources:
+    repo1:
+      remote: "https://github.com/elainemccloskey/control-repo.git"
+      prefix: false
+    repo2:
+      remote: "https://github.com/pgrant87/control-repo.git"
+      prefix: true

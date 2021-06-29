@@ -19,3 +19,6 @@ puppet_enterprise::master::puppetserver::reserved_code_cache: 192m
 puppet_infrastructure_tune::metadata:
   pe_version: 2021.1.0
   tune_date: '2021-06-16'
+  
+puppet_enterprise::master::code_manager::forge_settings:
+  baseurl: 'http://localhost:8888'

@@ -21,8 +21,6 @@ puppet_infrastructure_tune::metadata:
   tune_date: '2021-06-16'
   
 puppet_enterprise::profile::master::code_manager_auto_configure: true
-puppet_enterprise::master::code_manager::forge_settings:
-  baseurl: 'http://localhost:8888'
 
 puppet_enterprise::master::code_manager::git_settings:
   repositories:

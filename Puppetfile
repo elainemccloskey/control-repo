@@ -16,7 +16,7 @@ mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-pwshlib', '0.8.0'
 
 mod 'puppetlabs-support_tasks', '1.1.3'
-mod 'puppetlabs-puppet_agent', '4.7.0'
+mod 'puppetlabs-puppet_agent', '4.6.0'
 
 
 # rsan and dependencies
